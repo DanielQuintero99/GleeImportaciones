@@ -348,7 +348,7 @@
 .imgStore {
   width: 100vw;
   height: 35vh;
-  background: url("../src/img/tiendaCover.png");
+  background: url("../src/img/tiendacover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
