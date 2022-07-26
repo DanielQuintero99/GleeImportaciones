@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>.::Glee::.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+  </head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="preNavbar container-fluid">
+      <div>
+        <a class="preNavText" href="index.html">
+          <img class="mx-lg-2" src="./src/icon/faq-icon.svg" alt="faqIcon">
+          Preguntas Frecuentes
+        </a>
+      </div>
+      <div>
+        <a class="preNavText mx-lg-2" href="index.html">
+          <img class="mx-lg-2" src="./src/icon/help-icon.svg" alt="ayudaIcon">
+          Ayuda
+        </a>
+      </div>
+      <div class="navButonContainer">
+        <button class="preNavButton mx-lg-2"> <img src="./src/icon/whatsapp-icon-blue.svg" alt="whatsapp-icon"><a class="preNavButtonText" href="index.html">Consultanos por Whatsapp</a></button>
+      </div>
+      <div>
+        <img src="./src/icon/instagram-icon.svg" alt="instagram-icon">
+      </div>
+    </nav>
+    <nav class="navBgColor navbar-light bg-light navbar navbar-expand-lg d-flex flex-column sticky-top fixed-top">
+      <div class="container-fluid">
+        <div class="col-6">
+        <a class="navbar-brand bold" href="#"><img src="./src/logo/Glee_Importaciones_png 1.png" class="img-fluid" alt="logo"></a>
+        </div>
+        <div class="navDesktop">
+          <a class="navbar-brand bold" href="./content/about.html">NOSOTROS</a>
+          <a class="navbar-brand bold" href="#tienda">TIENDA</a>
+          <a class="navbar-brand bold" href="#">CONTACTO</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvasBg offcanvas-header offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvasBg offcanvas-header justify-content-end">
+            <button type="button" class="text-reset btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvasBg offcanvas-body">
+            <ul class="allVh navbar-nav justify-content-evenly flex-grow-1 pe-3">
+              <li class="nav-item">
+                  <h5 class="text-white ml bold blackText ">TIENDA</h5>
+                  <a class="text-white nav-link active regular noDisplay" aria-current="page" href="#">Cátalogo Online</a>
+                  <a class="text-white nav-link active regular noDisplay" aria-current="page" href="#">Lo más vendido</a>
+                  <a class="text-white nav-link active regular noDisplay" aria-current="page" href="#">Lo más nuevo</a>
+              </li>
+              <li class="nav-item">
+                  <h5 class="text-white ml bold blackText">NOSOTROS</h5>
+                  <a class=" text-white nav-link active regular noDisplay" aria-current="page" href="./content/about.html">¿Por qué elegirnos?</a>
+                  <a class=" text-white nav-link active regular noDisplay" aria-current="page" href="./content/about.html">Nuestro valores</a>
+              </li>
+              <li>
+                  <h5 class="text-white bold noDisplay">PREGUNTAS FRECUENTES</h5>
+                  <h5 class="text-white regular noDisplay">AYUDA</h5>
+                  <h5 class="text-white ml bold blackText ">CONTACTO</h5>
+              </li>
+              <li class="noDisplay">
+                  <a class="text-white nav-link active regular" aria-current="page" href="#"><img class="navIcon"
+                          src="./src/icon/whatsapp-icon.svg" alt="whatsapp">Consultanos por Whatsapp </a>
+                  <a class="text-white nav-link active regular" aria-current="page" href="#"><img class="navIcon"
+                          src="./src/icon/instagram-icon.svg" alt="instagram">Seguinos en Instagram</a>
+                  <a class="text-white nav-link active regular" aria-current="page" href="#"><img class="navIcon"
+                          src="./src/icon/mail-icon.svg" alt="mail">Envianos tu consulta </a>
+              </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NavBar End -->
+    <!-- Contenido -->
+      <div>
+    <!-- Slider Mobile -->
+    <div  class="sliderContainer d-lg-none">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button id="buttonRadius" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button id="buttonRadius" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button id="buttonRadius" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active slider1Bg">
+            <img src="./src/img/slider-bg.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class="sliderTitle text-body medium ">Encontrá productos de primera calidad</h5>
+              <p class="sliderText text-body regular" >En Glee importaciones tenemos como premisa comercializar los mejores del productos del mercado.</p>
+              <button class="sliderButton regular" >Más información</button>
+            </div>
+          </div>
+          <div class="carousel-item slider2Bg">
+            <img src="./src/img/slider-bg.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class="sliderTitle text-body medium ">VISITÁ NUESTRA TIENDA ONLINE</h5>
+              <p class="sliderText text-body regular" >Encontrá los productos que necesites navegando en la sección de tienda.</p>
+              <button class="sliderButton regular" >Más información</button>
+            </div>
+          </div>
+          <div class="carousel-item slider3Bg">
+            <img src="./src/img/slider-bg.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class="sliderTitle text-body medium ">BRINDAMOS UNA ATENCIÓN DE CALIDAD Y 100% PERSONALIZADA</h5>
+              <p class="sliderText text-body regular" >Nuestro objetivo es mejorar la experiencia de cada comprador, porque entendiemos que cada cliente tiene diferentes necesidades. </p>
+              <button class="sliderButton regular" >Más información</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- Slider Mobile End -->
+    </div>
+    <!-- Slider Desktop -->
+    <div class="sliderContainer desktopSlider">
+        <div class="slideShow">
+          <div class="slideContainer1">
+            <div class="sliderContent">
+              <h2>Encontrá productos de primera calidad</h2>
+              <p>En Glee importaciones tenemos como premisa comercializar los mejores del productos del mercado.</p>
+              </p>
+            </div>
+            <div class="imgContainer">
+              
+            </div>
+          </div>
+          <div class="slideContainer2">
+            <div class="sliderContent">
+              <h2>VISITÁ NUESTRA TIENDA ONLINE</h2>
+              <p>Encontrá los productos que necesites navegando en la sección de tienda.
+              </p>
+            </div>
+            <div class="imgContainer">
+             
+            </div>
+          </div>
+          <div class="slideContainer3">
+            <div class="sliderContent">
+              <h2>BRINDAMOS una atención de calidad y 100% personalizada</h2>
+              <p>Nuestro objetivo es mejorar la experiencia de cada comprador, porque entendiemos que cada cliente tiene diferentes necesidades. 
+              </p>
+            </div>
+            <div class="imgContainer">
+             
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Slider End -->
+
+    <!-- Por que elegirnos -->
+    <div class="chooseSection d-flex flex-column align-items-center justify-content-center mt-5">
+      <div>
+        <h2>
+          <span class="text-body bold">¿Por que elegirnos?</span>
+        </h2>
+      </div>
+      <div class="chooseText mt-2">
+        <p class="regular mt-2">
+          Glee importaciones es una tienda especializada en la importación y comercialización mayorista y minorista de módulos y repuestos para teléfonos celulares. 
+        </p>
+        <p class="regular mt-2 ">
+          Somos importadores directos y manejamos la mejor calidad en nuestros productos al mejor precio de mercado. 
+        </p>
+      </div>
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center boxesContainer d-lg-none">
+        <div class="container-fluid box d-flex justify-content-center align-items-center flex-lg-column">
+          <img class="mx-3" src="./src/icon/condecoracion-icon.svg"><span class="mt-2"><p class="medium">Trabajamos con repuestos de primera calidad.</p></span>
+        </div>
+        <div class="container-fluid box d-flex justify-content-center align-items-center flex-lg-column">
+          <span class="mt-2 mx-3"><p class="medium">Tenemos amplia experiencia en el mercado</p></span><img class="mx-2" src="./src/icon/five-stars-icon.svg">
+        </div>
+        <div class="container-fluid box d-flex justify-content-center align-items-center flex-lg-column">
+          <img class="mx-3" src="./src/icon/person-icon.svg"><span class="mt-2"><p class="medium">Brindamos atención personalizada</p></span>
+        </div>
+      </div>
+      <div class ="container-fluid d-flex flex-column justify-content-center align-items-center boxesDesktopContainer flex-lg-row">
+          <div class="d-flex flex-row col-4 box">
+              <img class="img-fluid col-4 imgChoose" src="./src/icon/condecoracion-icon.svg" alt=""> 
+            <div class="boxContent">
+              <h5 class="bold">Trabajamos con repuestos de primera calidad.</h5>
+              <p class="regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, harum?</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row col-4 box">
+            <img class="img-fluid col-4 imgChoose" src="./src/icon/five-stars-icon.svg" alt=""> 
+            <div class="boxContent">
+              <h5 class="bold">Tenemos amplia experiencia en el mercado</h5>
+              <p class="regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, harum?</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row col-4 box">
+            <img class="img-fluid col-4 imgChoose" src="./src/icon/person-icon.svg" alt=""> 
+            <div class="boxContent">
+              <h5 class="bold">Brindamos atención personalizada</h5>
+              <p class="regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, harum?</p>
+            </div>
+          </div>
+      </div>
+      <div class="container-fluid d-flex justify-content-center">
+        <button class="catalogoButton"> <a class="enlace regular text-white" href="./content/store.html">Ir a la tienda</a></button>
+      </div>
+    </div>
+    <!-- Por que elegirnos End -->
+    <!-- WhatsAppFloatingButton -->
+    <button class="floatingButton" id="floatingButton">
+      <img src="./src/icon/whatsapp-floating-Button-icon.svg" alt="whatsapp">
+    <!-- WhatsAppFloatingButtonEnd -->
+
+    </div>
+    <!-- Como Comprar -->
+    <div class="comprarContainer d-flex flex-column">
+    <h2 class="bold mt-4 align-self-center">¿Como comprar?</h2>
+    <div class="comprarSection d-flex flex-column">
+
+      <div class="cardsContainer">
+      <div class="card borderNone" style="width: 18rem;">
+        <div class="card-body d-flex flex-column align-items-center">
+          <img src="./src/img/01-producto.png" class="card-img-top" alt="...">
+          <h5 class="card-title bold mt-3">Elegí tus productos</h5>
+          <p class="card-text regular">Buscá los productos que necesites desde la página principal o navegando en la sección de tienda.</p>
+        </div>
+      </div>
+      <div class="card borderNone" style="width: 18rem;">
+        <div class="card-body">
+          <img src="./src/img/02-comprar.png" class="card-img-top" alt="...">
+          <h5 class="card-title bold mt-3">2. Presioná el botón “comprar”</h5>
+          <p class="card-text regular">El cual te pondrá en contacto con nuestros vendedores.</p>
+        </div>
+      </div>
+      <div class="card borderNone" style="width: 18rem;">
+        <div class="card-body">
+          <img src="./src/img/03-envio.png" class="card-img-top" alt="...">
+          <h5 class="card-title bold mt-3">3. Te contactará uno de nuestros vendedores</h5>
+          <p class="card-text regular">Para efectuar el pago y coordinar el envío.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <a href="#" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
+  </div>
+    <!-- Como Comprar End -->
+
+    <!-- Destacados -->
+
+    <div id="tienda"class="destacadosContainer d-flex flex-column">
+      <h2 class="bold mt-4 align-self-center">Destacados/Más vendidos</h2>
+      <div class="destacadosSection d-flex flex-column">
+  
+        <div id="destacadosSection" class="cardsContainer">
+
+      </div>
+      </div>
+      <a href="#" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
+    </div>
+
+    <!-- Destacados End -->
+   
+    <!-- Footer -->
+    
+    <footer class="footerContainer">
+       <!-- Consultas -->
+    <div class="container-fluid consultasContainer d-flex d-lg-none">
+      <div class="consultasContainerContent">
+        <h2 class ="consultasTittle bold">
+          Tenés alguna consulta?
+        </h2>
+       
+        <a href="#" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
+      </div>
+    </div>
+    <div class="container-fluid consultasContainer footerdesktop justify-content-center">
+      <div class=" d-flex flex-row consultasWrapper">
+        <div class="d-flex flex-column consultasContent">
+          <h2 class ="consultasTittle bold">
+            Tenés alguna consulta?
+          </h2>
+          <a href="#" class="btn comprar-button align-self-center regular">Hablanos por whatsapp</a>
+        </div>
+      </div>
+    </div>
+    <!-- Consultas End -->
+    <div class="footer d-lg-none">
+      <h2 class="bold mt-2 text-white">GLEE IMPORTACIONES</h2>
+      <ul class="mt-2 listFooterStyle">
+        <li class="list-item">
+          <a class="enlace regular text-white" href="#"><img class="navIcon"
+                  src="./src/icon/whatsapp-icon.svg" alt="whatsapp">Consultanos por Whatsapp </a>
+          <a class="enlace regular text-white" href="#"><img class="navIcon"
+                  src="./src/icon/instagram-icon.svg" alt="instagram">Seguinos en Instagram</a>
+          <a class="enlace regular text-white" href="#"><img class="navIcon"
+                  src="./src/icon/mail-icon.svg" alt="mail">Envianos tu consulta </a>
+      </li>
+        <li class="list-item">
+            <h5 class=" bold  text-white">TIENDA</h5>
+            <a class="enlace regular text-white" href="#">Cátalogo Online</a>
+            <a class="enlace regular text-white" href="#">Lo más vendido</a>
+            <a class="enlace regular text-white" href="#">Lo más nuevo</a>
+        </li>
+        <li class="list-item">
+            <h5 class=" bold text-white">CONOCENOS</h5>
+            <a class=" enlace regular text-white" href="#">Sobre Glee Importaciones</a>
+            <a class=" enlace regular text-white" href="#">¿Por qué elegirnos?</a>
+            <a class=" enlace regular text-white" href="#">¿Como comprar?</a>
+            <a class=" enlace regular text-white" href="#">Nuestro valores</a>
+        </li>
+        <li class="list-item">
+            <h5 class=" bold text-white">PREGUNTAS FRECUENTES</h5>
+            <h5 class=" regular text-white">AYUDA</h5>
+        </li>
+    </ul>
+    <small class="regular footerText text-white align-self-center" > © 2022 Glee Importaciones. Todos los derechos reservados.</small>
+  </div>  
+    <div class="footer footerdesktop container-fluid align-items-start ">
+      <div class="col-5">
+        <h2>GLEE <span>IMPORTACIONES</span></h2>
+        <ul class="mt-2 listFooterStyle">
+          <li class="list-item">
+            <a class="enlace regular text-white" href="#"><img class="navIcon"
+                    src="./src/icon/whatsapp-icon.svg" alt="whatsapp">Consultanos por Whatsapp </a>
+            <a class="enlace regular text-white" href="#"><img class="navIcon"
+                    src="./src/icon/instagram-icon.svg" alt="instagram">Seguinos en Instagram</a>
+            <a class="enlace regular text-white" href="#"><img class="navIcon"
+                    src="./src/icon/mail-icon.svg" alt="mail">Envianos tu consulta </a>
+        </li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h4 class="text-white bold">CONOCENOS</h4>
+            <a class="enlace regular text-white" href="#">Sobre Glee Importaciones</a> <br>
+            <a class="enlace regular text-white" href="#">¿Por qué elegirnos?</a><br>
+            <a class="enlace regular text-white" href="#">¿Como comprar?</a><br>
+            <a class="enlace regular text-white" href="#">Nuestros valores</a>
+      </div>
+      <div class="col-2">
+        <h4 class="text-white bold">TIENDA</h4>
+              <a class="enlace regular text-white" href="#">Cátalogo Online</a>
+      </div>
+      <div class="col-2">
+        <div>
+          <div>
+            <h4 class="text-white bold">CONTACTO</h4>
+            <a class="enlace regular text-white">Envianos tu consulta</a>
+          </div>
+          <div class="mt-4">
+            <h4 class="text-white bold">PREGUNTAS FRECUENTES</h4>
+            <h5 class="regular text-white">AYUDA</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small class="regular footerText text-white footerdesktop" > © 2022 Glee Importaciones. Todos los derechos reservados.</small>
+  </footer>
+    <!-- Footer End -->
+
+    <!-- Contenido End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+
+</html>

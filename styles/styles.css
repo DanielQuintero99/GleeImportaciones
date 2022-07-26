@@ -1,0 +1,729 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.preNavbar {
+  display: none;
+}
+
+.subTitle {
+  display: none;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.offcanvasBg {
+  background-color: #0d99ff;
+}
+
+.offcanvas-header {
+  align-items: flex-end;
+}
+
+.regular {
+  font-family: "Roboto", regular;
+}
+
+.bold {
+  font-family: "Roboto", bold;
+  font-weight: 700;
+}
+
+.medium {
+  font-family: "Roboto", medium;
+  font-weight: 700;
+}
+
+.allVh {
+  height: 90vh;
+}
+
+.navIcon {
+  margin-right: 5px;
+}
+
+.imgSlider {
+  width: 100%;
+  height: 30vh;
+  background: url("../src/img/slider-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.slider1Bg {
+  background: url("../src/img/slider1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding: 25px;
+}
+
+.slider2Bg {
+  background: url("../src/img/slider-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  background-position-x: center;
+}
+
+.slider3Bg {
+  background: url("../src/img/slider3.png");
+  background-size: cover;
+  padding: 25px;
+  background-position-x: center;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  top: 0;
+}
+
+.carousel-indicators {
+  margin-bottom: 2rem;
+}
+
+#buttonRadius {
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.SliderImgRadius {
+  border-radius: 10%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+}
+
+.sliderButton {
+  background-color: #0d99ff;
+  border-radius: 32px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: "Roboto", regular;
+  padding: 16px 32px;
+}
+
+.sliderText {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sliderTitle {
+  color: #fff;
+  font-size: 16px;
+}
+
+.desktopSlider {
+  display: none;
+}
+
+.navDesktop {
+  display: none;
+}
+
+.footerdesktop {
+  display: none !important;
+}
+
+.footerContainer {
+  background-color: #333333;
+}
+
+.chooseSection {
+  height: 60vh;
+}
+
+.chooseText {
+  display: none;
+}
+
+.boxesContainer {
+  padding: 20px;
+  height: 45vh;
+}
+
+.boxesDesktopContainer {
+  display: none !important;
+}
+
+.box {
+  background-color: #fff;
+  height: 35%;
+  width: 90%;
+  border: 1px solid #fff;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.15);
+  padding: 2px;
+}
+
+.catalogoButton {
+  background-color: #333333;
+  border-radius: 12px;
+  width: 70%;
+  height: 34px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: "Roboto", regular;
+}
+
+.floatingButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  z-index: 1000;
+}
+
+.comprarSection {
+  background-color: #cfebff;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.card {
+  margin: 10px;
+  background-color: transparent;
+  padding: 2px;
+}
+
+.borderNone {
+  border: none;
+}
+
+.cardsContainer {
+  display: flex;
+  width: 250%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardButton {
+  background-color: #333333;
+  border-radius: 12px;
+  width: 70%;
+  height: 34px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto", regular;
+}
+
+.comprarContainer {
+  margin-top: 3rem;
+  background-color: #cfebff;
+  padding: 1rem;
+}
+
+.comprar-button {
+  background-color: #333333;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto", regular;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.destacadosSection {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.destacadosContainer {
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.consultasContainer {
+  display: flex;
+  padding: 1rem;
+  background: url(../src/img/Consultabg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.consultasContainerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+
+.containerimg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/img/chat-image.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.listFooterStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-decoration: none;
+  height: 100%;
+}
+
+.list-item {
+  height: 20%;
+  font-size: 14px;
+  font-family: "Roboto", regular;
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.enlace {
+  text-decoration: none;
+}
+
+.footerText {
+  font-size: 10px;
+}
+
+.aboutText {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.imgAbout {
+  width: 100vw;
+  height: 35vh;
+  background: url("../src/img/aboutCover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imgStore {
+  width: 100vw;
+  height: 35vh;
+  background: url("../src/img/tiendaCover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product {
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  padding: 2px 2px 20px 20px;
+  min-width: 95%;
+  height: 65vh;
+}
+
+.btnComprar {
+  background-color: #333333;
+  border-radius: 12px;
+  width: 70%;
+  height: 34px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto", regular;
+}
+
+.nuestrosValores {
+  background-color: #cfebff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+}
+
+.boxesAboutContainer {
+  height: 45vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.boxAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #cfebff;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  height: 30%;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .cardsContainer {
+    width: 150%;
+  }
+
+  .product {
+    min-width: 0;
+    height: 65vh;
+  }
+}
+@media (min-width: 768px) {
+  .cardsContainer {
+    width: 100%;
+  }
+
+  .marginTop {
+    margin-top: 9rem;
+  }
+
+  .product {
+    max-width: 30vw;
+    height: 65vh;
+  }
+}
+@media (min-width: 992px) {
+  .preNavbar {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    height: 6vh;
+    background-color: #0d99ff;
+    margin: 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .product {
+    max-width: 25%;
+    height: 65vh;
+  }
+
+  .preNavText {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Roboto", regular;
+  }
+
+  .navButonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0d99ff;
+    width: 20%;
+  }
+
+  .preNavButton {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 12px;
+    font-family: "Roboto", regular;
+    border: none;
+  }
+
+  .catalogoButton {
+    width: 30%;
+  }
+
+  .preNavButtonText {
+    color: #0d99ff;
+    font-size: 12px;
+    font-family: "Roboto", regular;
+    text-decoration: none;
+  }
+
+  .allVh {
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end !important;
+  }
+
+  .ml {
+    margin-left: 1.5rem;
+  }
+
+  .subTitle {
+    display: inline-block;
+    color: #848484;
+  }
+
+  .noDisplay {
+    display: none;
+  }
+
+  .desktopSlider {
+    display: block;
+  }
+
+  .navDesktop {
+    display: block;
+  }
+
+  .sliderContent {
+    padding: 1.5rem;
+    min-width: 50%;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("../src/img/slider-bg.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imgContainer {
+    height: auto;
+    max-width: 40%;
+  }
+
+  .imgSlider {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .slideContainer1 {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../src/img/slider1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding: 40px 0;
+  }
+
+  .slideContainer2 {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../src/img/slider-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding: 40px 0;
+  }
+
+  .slideContainer3 {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../src/img/slider3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding: 40px 0;
+  }
+
+  .slick-next {
+    right: 90px;
+  }
+
+  .slick-prev {
+    left: 70px;
+    z-index: 1000;
+  }
+
+  .slick-dots li button:before {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #fff;
+  }
+
+  .slick-dots {
+    bottom: 10px;
+  }
+
+  .slick-prev:before,
+.slick-next:before {
+    font-size: 40px;
+  }
+
+  .blackText {
+    color: #333333 !important;
+  }
+
+  .grayText {
+    color: #848484 !important;
+  }
+
+  .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    top: 0;
+  }
+
+  .itmSlider {
+    height: 100%;
+    width: 100%;
+    background-image: url("../src/img/yaniv-cohen-0za9Rc3iwFc-unsplash.jpg");
+  }
+
+  .footerdesktop {
+    display: flex !important;
+    padding-right: 5rem;
+    align-items: flex-start;
+    padding-left: 3rem;
+  }
+
+  .comprarSection {
+    overflow-x: hidden;
+  }
+
+  .destacadosSection {
+    overflow-x: hidden;
+  }
+
+  .containerimg {
+    height: 80%;
+    max-width: 50%;
+  }
+
+  .consultasContainer {
+    height: 40vh;
+  }
+
+  .marginTop {
+    margin-top: 1rem;
+  }
+
+  .footer {
+    height: 25vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerText {
+    justify-content: center;
+  }
+
+  .chooseText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+  }
+
+  .boxesDesktopContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding: 20px;
+    height: 45vh;
+  }
+
+  .box {
+    width: 32%;
+    height: 70%;
+    align-items: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  .boxContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .imgChoose {
+    height: 90%;
+    margin-right: 5px;
+  }
+
+  .boxesAboutContainer {
+    flex-direction: row;
+  }
+
+  .boxAbout {
+    width: 30%;
+    background: #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .slideContainer1 {
+    height: 60vh;
+  }
+
+  .product {
+    max-width: 20%;
+  }
+
+  .slideContainer2 {
+    height: 60vh;
+  }
+
+  .slideContainer3 {
+    height: 60vh;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
