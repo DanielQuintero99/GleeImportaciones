@@ -39,9 +39,9 @@
         <a class="navbar-brand bold" href="#"><img src="./src/logo/Glee_Importaciones_png 1.png" class="img-fluid" alt="logo"></a>
         </div>
         <div class="navDesktop">
-          <a class="navbar-brand bold" href="./content/about.html">NOSOTROS</a>
-          <a class="navbar-brand bold" href="./content/store.html">TIENDA</a>
-          <a class="navbar-brand bold" href="./content/contact.html">CONTACTO</a>
+          <a class="navbar-brand bold navhover" href="./content/about.html">NOSOTROS</a>
+          <a class="navbar-brand bold navhover" href="./content/store.html">TIENDA</a>
+          <a class="navbar-brand bold navhover" href="./content/contact.html">CONTACTO</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@
               <li>
                   <h5 class="text-white bold noDisplay">PREGUNTAS FRECUENTES</h5>
                   <h5 class="text-white regular noDisplay">AYUDA</h5>
-                  <h5 class="text-white ml bold blackText ">CONTACTO</h5>
+                  <a href="./content/contact.html" class="text-white ml bold blackText text-white nav-link active regular noDisplay ">CONTACTO</a>
               </li>
               <li class="noDisplay">
                   <a class="text-white nav-link active regular" aria-current="page" href="https://wa.link/tspqjd"><img class="navIcon"
@@ -185,40 +185,37 @@
       </div>
       <div class="container-fluid d-flex flex-column justify-content-center align-items-center boxesContainer d-lg-none">
         <div class="container-fluid box d-flex justify-content-center align-items-center flex-lg-column">
-          <img class="mx-3" src="./src/icon/condecoracion-icon.svg"><span class="mt-2"><p class="medium">Trabajamos con repuestos de primera calidad.</p></span>
+          <img class="mx-3" src="./src/icon/condecoracion-icon.svg"><span class="mt-2"><p class="medium">Ofrecemos repuestos de primera calidad al mejor precio.</p></span>
         </div>
         <div class="container-fluid box d-flex justify-content-center align-items-center flex-lg-column">
-          <span class="mt-2 mx-3"><p class="medium">Tenemos amplia experiencia en el mercado</p></span><img class="mx-2" src="./src/icon/five-stars-icon.svg">
+          <span class="mt-2 mx-3"><p class="medium">Todos nuestros productos cuentan con garantía.</p></span><img class="mx-2" src="./src/icon/five-stars-icon.svg">
         </div>
         <div class="container-fluid box d-flex justify-content-center align-items-center flex-lg-column">
-          <img class="mx-3" src="./src/icon/person-icon.svg"><span class="mt-2"><p class="medium">Brindamos atención personalizada</p></span>
+          <img class="mx-3" src="./src/icon/person-icon.svg"><span class="mt-2"><p class="medium">Brindamos una atención personalizada para brindar el mejor servicio.</p></span>
         </div>
       </div>
       <div class ="container-fluid d-flex flex-column justify-content-center align-items-center boxesDesktopContainer flex-lg-row">
           <div class="d-flex flex-row col-4 box">
               <img class="img-fluid col-4 imgChoose" src="./src/icon/condecoracion-icon.svg" alt=""> 
             <div class="boxContent">
-              <h5 class="bold">Trabajamos con repuestos de primera calidad.</h5>
-              <p class="regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, harum?</p>
+              <h6 class="bold">Ofrecemos repuestos de primera calidad al mejor precio.</h6>
             </div>
           </div>
           <div class="d-flex flex-row col-4 box">
             <img class="img-fluid col-4 imgChoose" src="./src/icon/five-stars-icon.svg" alt=""> 
             <div class="boxContent">
-              <h5 class="bold">Tenemos amplia experiencia en el mercado</h5>
-              <p class="regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, harum?</p>
+              <h6 class="bold">Todos nuestros productos cuentan con garantía.</h6>
             </div>
           </div>
           <div class="d-flex flex-row col-4 box">
             <img class="img-fluid col-4 imgChoose" src="./src/icon/person-icon.svg" alt=""> 
             <div class="boxContent">
-              <h5 class="bold">Brindamos atención personalizada</h5>
-              <p class="regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, harum?</p>
+              <h6 class="bold">Brindamos una atención personalizada para brindar el mejor servicio.</h6>
             </div>
           </div>
       </div>
       <div class="container-fluid d-flex justify-content-center">
-        <button class="catalogoButton"> <a class="enlace regular text-white" href="./content/store.html">Ir a la tienda</a></button>
+        <button class="catalogoButton"> <a class="enlace regular text-white" href="./content/store.html">Ver el catalogo de productos</a></button>
       </div>
     </div>
     <!-- Por que elegirnos End -->
@@ -229,7 +226,7 @@
 
     </div>
     <!-- Como Comprar -->
-    <div class="comprarContainer d-flex flex-column">
+    <div id="howbuy" class="comprarContainer d-flex flex-column">
     <h2 class="bold mt-4 align-self-center">¿Como comprar?</h2>
     <div class="comprarSection d-flex flex-column">
 
@@ -257,7 +254,7 @@
       </div>
     </div>
     </div>
-    <a href="#" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
+    <a href="./content/store.html" class="btn comprar-button align-self-center regular">Ir a la tienda</a>
   </div>
     <!-- Como Comprar End -->
 
@@ -271,7 +268,7 @@
 
       </div>
       </div>
-      <a href="#" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
+      <a href="./content/store.html" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
     </div>
 
     <!-- Destacados End -->
@@ -286,7 +283,7 @@
           Tenés alguna consulta?
         </h2>
        
-        <a href="#" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
+        <a href="./content/store.html" class="btn comprar-button align-self-center regular">Ver cátalogo</a>
       </div>
     </div>
     <div class="container-fluid consultasContainer footerdesktop justify-content-center">
@@ -295,7 +292,7 @@
           <h2 class ="consultasTittle bold">
             Tenés alguna consulta?
           </h2>
-          <a href="#" class="btn comprar-button align-self-center regular">Hablanos por whatsapp</a>
+          <a href="https://wa.link/tspqjd" class="btn comprar-button align-self-center regular">Hablanos por whatsapp</a>
         </div>
       </div>
     </div>
@@ -313,16 +310,16 @@
       </li>
         <li class="list-item">
             <h5 class=" bold  text-white">TIENDA</h5>
-            <a class="enlace regular text-white" href="#">Cátalogo Online</a>
-            <a class="enlace regular text-white" href="#">Lo más vendido</a>
+            <a class="enlace regular text-white" href="./content/store.html">Cátalogo Online</a>
+            <a class="enlace regular text-white" href="#tienda">Lo más vendido</a>
             <a class="enlace regular text-white" href="#">Lo más nuevo</a>
         </li>
         <li class="list-item">
             <h5 class=" bold text-white">CONOCENOS</h5>
-            <a class=" enlace regular text-white" href="#">Sobre Glee Importaciones</a>
-            <a class=" enlace regular text-white" href="#">¿Por qué elegirnos?</a>
-            <a class=" enlace regular text-white" href="#">¿Como comprar?</a>
-            <a class=" enlace regular text-white" href="#">Nuestro valores</a>
+            <a class=" enlace regular text-white" href="./content/about.html">Sobre Glee Importaciones</a>
+            <a class=" enlace regular text-white" href="./content/about.html">¿Por qué elegirnos?</a>
+            <a class=" enlace regular text-white" href="#howbuy">¿Como comprar?</a>
+            <a class=" enlace regular text-white" href="./content/about.html">Nuestro valores</a>
         </li>
         <li class="list-item">
             <h5 class=" bold text-white">PREGUNTAS FRECUENTES</h5>
@@ -347,20 +344,20 @@
       </div>
       <div class="col-3">
         <h4 class="text-white bold">CONOCENOS</h4>
-            <a class="enlace regular text-white" href="#">Sobre Glee Importaciones</a> <br>
-            <a class="enlace regular text-white" href="#">¿Por qué elegirnos?</a><br>
-            <a class="enlace regular text-white" href="#">¿Como comprar?</a><br>
-            <a class="enlace regular text-white" href="#">Nuestros valores</a>
+            <a class="enlace regular text-white" href="./content/about.html">Sobre Glee Importaciones</a> <br>
+            <a class="enlace regular text-white" href="./content/about.html">¿Por qué elegirnos?</a><br>
+            <a class="enlace regular text-white" href="howbuy">¿Como comprar?</a><br>
+            <a class="enlace regular text-white" href="./content/about.html">Nuestros valores</a>
       </div>
       <div class="col-2">
         <h4 class="text-white bold">TIENDA</h4>
-              <a class="enlace regular text-white" href="#">Cátalogo Online</a>
+              <a class="enlace regular text-white" href="./content/store.html">Cátalogo Online</a>
       </div>
       <div class="col-2">
         <div>
           <div>
             <h4 class="text-white bold">CONTACTO</h4>
-            <a class="enlace regular text-white">Envianos tu consulta</a>
+            <a href="./content/contact.html" class="enlace regular text-white">Envianos tu consulta</a>
           </div>
           <div class="mt-4">
             <h4 class="text-white bold">PREGUNTAS FRECUENTES</h4>

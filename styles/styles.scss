@@ -265,6 +265,20 @@ $font3: "Roboto", medium;
   align-content: center;
   align-items: center;
 }
+.contactPrefooterContainer{
+  display: flex;
+  padding: 1rem;
+  background:url(../src/img/contactfooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
 .consultasContainerContent{
   display: flex;
   flex-direction: column;
@@ -274,6 +288,20 @@ $font3: "Roboto", medium;
   border-radius: 12px;
   padding: 1rem;
 }
+.prefooterContactContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  background: rgba(255, 255, 255);
+  box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 1rem;
+  width: 60%;
+}
+.marginLeft2{
+  margin-left: 1rem;
+}
 .footer {
   background-color: $colorBlack;
   padding: 1rem;
@@ -282,13 +310,26 @@ $font3: "Roboto", medium;
   justify-content: center;
   height: 90vh;
 }
-.containerimg {
-  width: 100%;
-  height: 100%;
-  background-image: url("../src/img/chat-image.png");
-  background-size: contain;
-  background-position: center;
+.activeNav{
+  color: $bg-01 !important;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.navhover{
+  cursor:pointer;
+  border-radius: 32px;
+  background-image:linear-gradient(to right, $bg-01 50%, #fff 50%);
+  background-size: 200%;
   background-repeat: no-repeat;
+  background-position: right;
+  transition: background-position 0.5s ease-in-out;
+  padding: 8px 16px;
+}
+.navhover:hover{
+  background-position: left;
+  color: #fff !important;
+
 }
 .listFooterStyle {
   display: flex;
@@ -335,6 +376,42 @@ $font3: "Roboto", medium;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.imgContact{
+  width: 100vw;
+  height: 35vh;
+  background: url("../src/img/contactoCover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.inputControl{
+  width: 80%;
+  padding: 10px 0;
+  border-radius: 0px;
+  margin-bottom: 60px;
+  border: none;
+  border-bottom: 1px solid #84848491;
+  outline: none;
+  background: transparent;
+  font-family: $font1;
+}
+.btnForm{
+  padding: 16px 32px;
+  border-radius: 32px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  background: $bg-01;
+  color: #fff;
+  font-family: $font1;
+}
+form{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-left: 10%;
 }
 #products{
   display: flex;
@@ -472,6 +549,10 @@ $font3: "Roboto", medium;
   .subTitle {
     display: inline-block;
     color: $colorSection4;
+  }
+  .prefooterContactContent{
+    width: 40%;
+    padding: 48px 60px;
   }
   .noDisplay {
     display: none;
