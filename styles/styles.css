@@ -409,6 +409,15 @@
   background-position: center;
 }
 
+.imgFaq {
+  width: 100vw;
+  height: 35vh;
+  background: url("../src/img/faqCover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .inputControl {
   width: 80%;
   padding: 10px 0;
