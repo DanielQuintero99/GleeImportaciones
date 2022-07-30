@@ -48,7 +48,7 @@ let getData=async () => {
     let card=document.createElement("div")
     card.classList.add("card")
     card.classList.add("p-1")
-    card.setAttribute("style","width: 80rem; min-height: 32rem;")
+    card.classList.add("cardStyles")
     card.innerHTML=`
         <div class=" card-body d-flex flex-column align-items-center justify-content-center ">
         <div class="ContenedorImagen">

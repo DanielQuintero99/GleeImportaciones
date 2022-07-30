@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 12px;
 }
 
 .preNavbar {
@@ -112,20 +113,20 @@
   border-radius: 32px;
   color: #fff;
   border: none;
-  font-size: 14px;
+  font-size: 10px;
   margin-bottom: 10px;
   font-family: "Roboto", regular;
-  padding: 16px 32px;
+  padding: 8px 16px;
 }
 
 .sliderText {
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .sliderTitle {
   color: #fff;
-  font-size: 16px;
+  font-size: 11px;
 }
 
 .desktopSlider {
@@ -512,6 +513,24 @@ form {
   .product {
     min-width: 0;
     height: 65vh;
+  }
+}
+@media (min-width: 350px) {
+  * {
+    font-size: 14px;
+  }
+
+  .sliderButton {
+    font-size: 14px;
+    padding: 16px 32px;
+  }
+
+  .sliderText {
+    font-size: 14px;
+  }
+
+  .sliderTitle {
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) {
