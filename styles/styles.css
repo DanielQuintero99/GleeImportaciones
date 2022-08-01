@@ -244,7 +244,6 @@
   border-radius: 20px;
   color: #fff;
   border: none;
-  font-size: 14px;
   font-family: "Roboto", regular;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -830,6 +829,26 @@ form {
 @media (min-width: 1200px) {
   .slideContainer1 {
     height: 60vh;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  a {
+    font-size: 1.5rem !important;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+  }
+
+  .textSlider {
+    width: 80%;
   }
 
   .product {

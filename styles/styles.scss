@@ -239,7 +239,7 @@ $font3: "Roboto", medium;
   border-radius: 20px;
   color: #fff;
   border: none;
-  font-size: 14px;
+  // font-size: 14px;
   font-family: $font1;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -762,6 +762,21 @@ form{
   .slideContainer1{
     height: 60vh;
 
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  a{
+    font-size: 1.5rem !important;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+  }
+  .textSlider{
+    width: 80%;
   }
   .product{
     max-width: 20%;
