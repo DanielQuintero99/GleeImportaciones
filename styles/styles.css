@@ -99,6 +99,10 @@
   background-color: #333333;
 }
 
+.btn:hover {
+  color: #ffffff;
+}
+
 .SliderImgRadius {
   border-radius: 10%;
 }
@@ -106,6 +110,10 @@
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
+}
+
+.cardStyles {
+  height: 420px;
 }
 
 .sliderButton {
@@ -467,7 +475,6 @@ form {
   background-color: #333333;
   border-radius: 12px;
   width: 70%;
-  height: 34px;
   color: #fff;
   border: none;
   font-size: 14px;
@@ -576,6 +583,10 @@ form {
 
   h2, h3, h4, h5, h6 {
     font-size: 2rem;
+  }
+
+  .cardStyles {
+    height: 550px;
   }
 
   .product {
@@ -851,6 +862,10 @@ form {
     height: 60vh;
   }
 
+  .cardStyles {
+    height: 600px;
+  }
+
   p {
     font-size: 1.5rem;
   }
@@ -881,6 +896,11 @@ form {
 
   .slideContainer3 {
     height: 60vh;
+  }
+}
+@media (min-width: 1400px) {
+  .cardStyles {
+    height: 850px;
   }
 }
 

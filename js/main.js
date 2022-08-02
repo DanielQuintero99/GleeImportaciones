@@ -52,7 +52,7 @@ let getData=async () => {
     card.innerHTML=`
         <div class=" card-body d-flex flex-column align-items-center justify-content-center ">
         <div class="ContenedorImagen">
-        <img class="img-fluid" style="height: 250px; width: 250px;" src="${data.imagen}">
+        <img class="img-fluid" src="${data.imagen}">
         </div>
             <h2 class="card-title bold mt-3 ">${data.modelo}</h2>
             <h6 class="card-text align-self-start">${data.marca}</h6>

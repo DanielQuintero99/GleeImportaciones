@@ -111,7 +111,9 @@ $font3: "Roboto", medium;
   border-radius: 50%;
   background-color: $colorBlack;
 }
-
+.btn:hover {
+  color: #ffffff;
+}
 .SliderImgRadius {
   border-radius: 10%;
 }
@@ -120,7 +122,9 @@ $font3: "Roboto", medium;
   width: 10px;
   height: 10px;
 }
-
+.cardStyles{
+  height: 420px;
+}
 .sliderButton {
   background-color: #0d99ff;
   border-radius: 32px;
@@ -438,7 +442,6 @@ form{
   background-color: $colorBlack;
   border-radius: $borderRadius;
   width: 70%;
-  height: 34px;
   color: #fff;
   border: none;
   font-size: 14px;
@@ -542,6 +545,9 @@ form{
   }
   h2, h3, h4, h5, h6 {
     font-size: 2rem;
+  }
+  .cardStyles{
+    height: 550px;
   }
   .product{
     max-width: 25%;
@@ -777,7 +783,9 @@ form{
 @media (min-width: 1200px) {
   .slideContainer1{
     height: 60vh;
-
+  }
+  .cardStyles{
+    height: 600px;
   }
   p {
     font-size: 1.5rem;
@@ -809,5 +817,7 @@ form{
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-
+  .cardStyles{
+    height: 850px;
+  }
 }
