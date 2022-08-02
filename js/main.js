@@ -2,7 +2,7 @@
     $(document).ready(function(){
     $('.slideShow').slick({
         dots: true,
-        autoplay: false,
+        autoplay: true,
     });
   });
 
