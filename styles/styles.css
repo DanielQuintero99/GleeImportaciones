@@ -153,10 +153,6 @@
   background-color: #333333;
 }
 
-.chooseSection {
-  height: 60vh;
-}
-
 .chooseText {
   display: none;
 }
@@ -468,7 +464,6 @@ form {
   margin-bottom: 1rem;
   padding: 2px 2px 20px 20px;
   min-width: 95%;
-  height: 65vh;
 }
 
 .btnComprar {
@@ -518,7 +513,6 @@ form {
 
   .product {
     min-width: 0;
-    height: 65vh;
   }
 }
 @media (min-width: 350px) {
@@ -550,7 +544,6 @@ form {
 
   .product {
     max-width: 30vw;
-    height: 65vh;
   }
 }
 @media (min-width: 992px) {
@@ -591,7 +584,6 @@ form {
 
   .product {
     max-width: 25%;
-    height: 65vh;
   }
 
   .preNavText {
@@ -665,7 +657,7 @@ form {
 
   .sliderContent {
     padding: 1.5rem;
-    width: 80%;
+    width: 50%;
     height: auto;
     border-radius: 12px;
     display: flex;
@@ -801,7 +793,7 @@ form {
   }
 
   .footer {
-    height: 25vh;
+    height: 25%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -825,7 +817,11 @@ form {
     padding-left: 3%;
     padding-right: 3%;
     padding: 20px;
-    height: 45vh;
+    height: 350px;
+  }
+
+  .buttonImg {
+    margin-right: 5px;
   }
 
   .box {
@@ -883,7 +879,7 @@ form {
   }
 
   .textSlider {
-    width: 80%;
+    width: 90%;
   }
 
   .product {

@@ -157,9 +157,7 @@ $font3: "Roboto", medium;
 .footerContainer {
   background-color: $colorBlack;
 }
-.chooseSection {
-  height: 60vh;
-}
+
 .chooseText {
   display: none;
 }
@@ -436,7 +434,6 @@ form{
   margin-bottom: 1rem;
   padding: 2px 2px 20px 20px; 
   min-width: 95%;
-  height: 65vh;
 }
 .btnComprar{
   background-color: $colorBlack;
@@ -484,7 +481,6 @@ form{
   }
   .product {
     min-width: 0;
-    height: 65vh;
   }
 }
 //This is an extra breakpont for very small devices (phones in portrait mode)
@@ -515,7 +511,6 @@ form{
   }
   .product{
     max-width: 30vw;
-    height: 65vh;
   }
 }
 
@@ -551,7 +546,6 @@ form{
   }
   .product{
     max-width: 25%;
-    height: 65vh;
   }
   .preNavText {
     text-decoration: none;
@@ -612,7 +606,7 @@ form{
   }
   .sliderContent {
     padding: 1.5rem;
-    width: 80%;
+    width: 50%;
     height: auto;
     border-radius: $borderRadius;
     display: flex;
@@ -728,7 +722,7 @@ form{
     margin-top: 1rem;
   }
   .footer {
-    height: 25vh;
+    height: 25%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -750,7 +744,10 @@ form{
     padding-left: 3%;
     padding-right: 3%;
     padding: 20px;
-    height: 45vh;
+    height: 350px;
+  }
+  .buttonImg{
+    margin-right: 5px;
   }
   .box {
     width: 32%;
@@ -800,7 +797,7 @@ form{
     font-size: 2rem;
   }
   .textSlider{
-    width: 80%;
+    width: 90%;
   }
   .product{
     max-width: 20%;
