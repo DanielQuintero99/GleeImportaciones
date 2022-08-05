@@ -44,6 +44,12 @@
   height: 90vh;
 }
 
+.howBuyCards {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
 .navIcon {
   margin-right: 5px;
 }
@@ -593,18 +599,21 @@ form {
     font-family: "Roboto", regular;
   }
 
+  .howBuyCards {
+    height: 500px;
+  }
+
   .navButonContainer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #0d99ff;
-    width: 20%;
   }
 
   .preNavButton {
     background-color: #fff;
-    border-radius: 12px;
-    width: 100%;
+    border-radius: 20px;
+    padding: 5px 20px;
     font-size: 12px;
     font-family: "Roboto", regular;
     border: none;

@@ -33,16 +33,12 @@
         </a>
       </div>
       <div class="navButonContainer">
-        <button class="preNavButton mx-lg-2">
-          <img src="../src/icon/whatsapp-icon-blue.svg" alt="whatsapp-icon" /><a
-            class="preNavButtonText"
-            href="https://wa.link/tspqjd"
-            >Consultanos por Whatsapp</a
-          >
-        </button>
+        <button class="d-flex justify-content-center align-items-center preNavButton mx-lg-2"> <img class="buttonImg" src="../src/icon/whatsapp-icon-blue.svg" alt="whatsapp-icon"><a class="preNavButtonText" href="https://wa.link/tspqjd" target="_blank">Consultanos por Whatsapp</button></a>
       </div>
       <div>
+        <a href="https://www.instagram.com/glee.importaciones/" target="_blank">
         <img src="../src/icon/instagram-icon.svg" alt="instagram-icon" />
+        </a>
       </div>
     </nav>
     <nav
@@ -139,7 +135,7 @@
                 <a
                   class="text-white nav-link active regular"
                   aria-current="page"
-                  href="#"
+                  href="https://www.instagram.com/glee.importaciones/" target="_blank"
                   ><img
                     class="navIcon"
                     src="../src/icon/instagram-icon.svg"
@@ -174,14 +170,14 @@
             </p>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center mt-5">
-            <form class="d-flex flex-wrap col-12 justify-content-center align-items-center">
+            <form action="enviar.php" method="post" class="d-flex flex-wrap col-12 justify-content-center align-items-center">
                 <div class="form-group col-md-6 col-lg-6 col-sm-6 ">
                     <label class="bold" for="name">NOMBRE Y APELLIDO</label>
                     <input type="text" class="form-control inputControl mt-3" id="name" name="name" placeholder="Ej:Maria" required>
                 </div>
                 <div class="form-group col-md-6 col-lg-6 col-sm-6">
                     <label class="bold" for="country">PAIS</label>
-                    <input type="text" class="form-control inputControl mt-3" id="country" name="email" placeholder="Ej: Argentina" required>
+                    <input type="text" class="form-control inputControl mt-3" id="country" name="pais" placeholder="Ej: Argentina" required>
                 </div>
                 <div class="form-group col-md-6 col-lg-6 col-sm-6">
                     <label class="bold" for="phone">TELEFONO</label>
@@ -193,14 +189,15 @@
                 </div>
                 <div class="form-group col-md-6 col-lg-6 col-sm-6">
                     <label class="bold" for="message">CIUDAD</label>
-                    <input type="text" class="form-control inputControl mt-3" id="message" name="ciudad" placeholder="Ej: Códoba ciudad" rows="3" required></input>
+                    <input type="text" class="form-control inputControl mt-3" id="city" name="ciudad" placeholder="Ej: Códoba ciudad" rows="3" required></input>
                 </div>
                 <div class="form-group col-md-6 col-lg-6 col-sm-6">
                     <label class="bold" for="message">MENSAJE</label>
                     <input type="text" class="form-control inputControl mt-3" id="message" name="mensaje" placeholder="Ej: ¡Hola! ¿Tendrás stock de este modelo?" rows="3" required></input>
                 </div>
+                <button type="submit" class="btn btnForm align-self-center">Enviar</button>
             </form>
-            <button type="submit" class="btn btnForm align-self-center">Enviar</button>
+
 
     </div>
     </div>
@@ -216,8 +213,8 @@
         Envianos un whatsapp
       </h6>
     </a>
-    <a class="text-decoration-none text-black align-items-center d-flex flex-row prefooterContactContent mt-2">
-        <img class="col-2 col-sm-1 col-md-1" src="../src/icon/instagram-icon-black.svg" alt="">
+    <a class="text-decoration-none text-black align-items-center d-flex flex-row prefooterContactContent mt-2" href="https://www.instagram.com/glee.importaciones/" target="_blank">
+        <img class="col-2 col-sm-1 col-md-1" src="../src/icon/instagram-icon-black.svg" alt="instagram-icon">
       <h6 class="bold marginLeft2">
         Y seguinos por instagram
       </h6>
@@ -230,7 +227,7 @@
        <li class="list-item">
          <a class="enlace regular text-white" href="https://wa.link/tspqjd"><img class="navIcon"
                  src="../src/icon/whatsapp-icon.svg" alt="whatsapp">Consultanos por Whatsapp </a>
-         <a class="enlace regular text-white" href="#"><img class="navIcon"
+         <a class="enlace regular text-white" href="https://www.instagram.com/glee.importaciones/" target="_blank"><img class="navIcon"
                  src="../src/icon/instagram-icon.svg" alt="instagram">Seguinos en Instagram</a>
          <a class="enlace regular text-white" href="#"><img class="navIcon"
                  src="../src/icon/mail-icon.svg" alt="mail">Envianos tu consulta </a>
@@ -262,7 +259,7 @@
          <li class="list-item">
            <a class="enlace regular text-white" href="https://wa.link/tspqjd"><img class="navIcon"
                    src="../src/icon/whatsapp-icon.svg" alt="whatsapp">Consultanos por Whatsapp </a>
-           <a class="enlace regular text-white" href="#"><img class="navIcon"
+           <a class="enlace regular text-white" href="https://www.instagram.com/glee.importaciones/" target="_blank"><img class="navIcon"
                    src="../src/icon/instagram-icon.svg" alt="instagram">Seguinos en Instagram</a>
            <a class="enlace regular text-white" href="#"><img class="navIcon"
                    src="../src/icon/mail-icon.svg" alt="mail">Envianos tu consulta </a>
